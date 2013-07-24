@@ -1,0 +1,153 @@
+body {
+    background-color:#DBD8D2;
+}
+
+#container {
+    position:absolute;
+    background-color:#ffffff;
+    left:50%;
+    top:10px;
+    width:1000px;
+    height:550px;
+    margin-left:-500px;
+}
+
+#container img {
+    position:absolute;
+    margin:20px 20px 20px 20px;
+}
+
+/*mouseTrap div can not capture mouse event for IE, add background with 0 opacity. */
+
+#mouseTrap {
+    position:absolute;
+    margin:20px 20px 20px 20px;
+	background-color: #ff0000; 
+	opacity:.0
+}
+
+#container canvas {
+    position:absolute;
+    margin:20px 20px 20px 20px;
+}
+
+#colorsZone {
+    position:absolute;
+    background-color:#e4e4e4;
+    width:1000px;
+    height:50px;
+    bottom:0px;
+}
+
+#colorsZone div {
+    cursor:pointer;
+    width:30px;
+    height:30px;
+    float:left;
+    margin:10px 30px;
+}
+
+/*.box_shadow{
+    -webkit-box-shadow:4px 2px 6px #333333; 
+    -moz-box-shadow:3px 2px 6px #333333;
+}
+*/
+
+.box_shadow{
+    -webkit-box-shadow:5px 5px 5px rgba(0,0,0,.6);
+    box-shadow:5px 5px 5px rgba(0,0,0,.6);
+}
+
+.img_shadow{
+    border:1px solid ddd;
+    -webkit-box-shadow:0 0 10px black;
+    -moz-box-shadow:0 0 10px black;
+    box-shadow:0 0 10px black;
+}
+
+button {
+    font-family:"Microsoft Yahei",Georgia,Serif;
+    font-size:18px;
+    position:absolute;
+    bottom:60px; 
+}
+
+/*
+body {
+	width: 100%;
+	margin: 0; 
+	color: #363636; 
+	background: #ffffff;
+	font: 14px Georgia, "Times New Roman", Times, serif;
+}
+
+a {
+	color: #21759B; 
+	border-bottom: 1px dotted #ccc;
+	text-decoration: none;
+}
+
+
+
+a:hover {
+	color: #000000; 
+	text-decoration: none;
+}
+
+#example img {
+	float:left;
+	
+}
+
+#code {
+	width: 400px;
+	float: left;
+	margin-top: -15px;
+}
+
+#code pre {
+	font-family: Courier, fixed;
+	font-size: 12px;
+}
+
+.break {
+	width:800px;
+	height:2px;
+	padding-bottom:30px;
+	clear: both;
+}
+
+.break img{
+	width:800px;
+	height:2px;
+}
+
+#examples-links {
+	width: 800px;
+}
+
+#examples-title {
+	font-size: 24px;
+	float:left;
+	width:150px;
+	margin-bottom:15px;
+}
+
+#links {
+	width: 400px;
+	float:left;
+	padding-bottom: 50px;
+	margin: -9px -40px;
+}
+
+#links ul {
+	list-style-type: none;
+}
+
+#links li {
+	margin-right: 25px;
+	font-size: 1em;
+	line-height: 1.6;
+
+}
+*/

@@ -77,7 +77,7 @@ function tintToChannel() {
     var click_bmd_channel;
     var maskNum;
     for (var i=0;i<maskCount;i++) {
-        console.log(bmd_channels[i].getRGBPixel(clickX, clickY));
+        //console.log(bmd_channels[i].getRGBPixel(clickX, clickY));
         if (bmd_channels[i].getRGBPixel(clickX, clickY) == 0xffffff) {
             click_bmd_channel = bmd_channels[i];
             maskNum = i;
